@@ -1,0 +1,149 @@
+  body {
+    margin: 0px;
+    height: 1200px;
+    color: #777777;
+    font-family: Arial, Helvica Neue, Helvetica, sans-serif;
+  }
+  .bg {
+      background-image: url('../images/blue-snow.png');
+  }
+  p {
+      color: #777777;
+  }
+  .content {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 960px;
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  
+  #myPicture {
+      float: left;
+      height: 150px;
+      margin: 20px;
+  }
+  a {
+      text-decoration: none;
+      text-decoration-line: none;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .name {
+      position: absolute;
+      left: 0;
+      color: white;
+      background-color: teal;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  nav {
+    float: right;
+    font-size: larger;
+  }
+  header {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid #cccccc;
+  }
+  .header-container {
+    height: 55px;
+    background-color: white;
+  }
+  .nav-row {
+    background-color: white;
+  }
+  #headerContent {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    color: teal;
+  }
+  #contentHeader {
+    border-bottom: 2px solid #777777;
+    padding-left: 20px;
+  }
+  #skills {
+      font-size: smaller;
+  }
+
+  main {
+    position: relative;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  .copywright {
+    vertical-align: bottom;
+  }
+  #frmContact {
+      margin: 20px;
+      color: #777777;
+  }
+  #btnSubmit {
+      font-size: x-large;
+      color: white;
+      background-color: teal;
+  }
+  .usrInput {
+      width: 100%;
+  }
+  .holder {
+      position: relative;
+      display: inline;
+      margin: 10px;
+  }
+  .pic {
+    width: 180px;
+  }
+  .tag {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 180px;
+      text-align: center;
+      color: white;
+      background-color: teal;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .clearBoth {
+      clear: both;
+  }
+  .floatRight {
+      float: right;
+  }
+  @media screen and (max-width: 768px){
+    .nav {
+      margin-top: 70px;
+      margin-left: 25%;
+    }
+    .name {
+      flex: unset;
+      width: 100%;
+      text-align: center;
+    }
+    .content {
+      margin-top: 70px;
+    }
+
+  }
