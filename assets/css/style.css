@@ -1,6 +1,6 @@
   body {
     margin: 0px;
-    height: 1200px;
+    height: 2500px;
     color: #777777;
     font-family: Arial, Helvica Neue, Helvetica, sans-serif;
   }
@@ -22,11 +22,11 @@
     background-color: #ffffff;
     border: 1px solid #dddddd;
   }
-  
-  #myPicture {
-      float: left;
-      height: 150px;
-      margin: 20px;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
   }
   a {
       text-decoration: none;
@@ -107,24 +107,21 @@
   .usrInput {
       width: 100%;
   }
-  .holder {
+/*   .holder {
       position: relative;
       display: inline;
       margin: 10px;
-  }
-  .pic {
+  } */
+/*   .pic {
     width: 180px;
-  }
+  } */
   .tag {
-      position: absolute;
-      top: 50px;
-      left: 0;
-      width: 180px;
-      text-align: center;
       color: white;
       background-color: teal;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding: 5px;
+      margin-left: 20px;
+      max-width: 300px;
+      text-align: center;
   }
   .clearBoth {
       clear: both;
