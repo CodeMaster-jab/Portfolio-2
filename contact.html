@@ -13,14 +13,14 @@
 </head>
 
 <body class="bg">
-    <header>
+    <div class="row nav-row">
         <div class="container header-container">
-            <div class="row nav-row">
-                <div class="col-md-6">
+            <div class="row">
+                <div class="col-12 col-md-4 name text-center">
                     <span class="name"><h1>Jeffrey Bell</h1></span>
                 </div>
-                <div class="col-md-6">
-                    <ul class="nav">
+                <div class="col-12 col-md-8 pt-1 pr-md-0">
+                    <ul class="nav float-none float-md-right justify-content-center">
                         <li class="nav-item">
                             <a class="nav-link active" href="./index.html">About</a>
                         </li>
@@ -28,17 +28,17 @@
                             <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
+                            <a class="nav-link pr-0" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     
     <main>
-      <div class="container content">
-          <div class="row">
+      <div class="container content mt-4">
+          <div class="row mt-2">
               <div class="col-md-12">
                   <div id="contentHeader">
                       <h2>Contact</h2>
@@ -48,22 +48,22 @@
           <form id="frmContact" action="/my-handling-form-page" method="post">
             <div>
               <label for="name">Name:</label><br/>
-              <input class="usrInput" type="text" id="name" >
+              <input class="usrInput form-control"  type="text" id="name" >
             </div>
             <div>
               <label for="mail">Email:</label><br/>
-              <input class="usrInput" type="email" id="mail" >
+              <input class="usrInput form-control" type="email" id="mail" >
             </div>
             <div>
               <label for="msg">Message:</label><br/>
-              <textarea class="usrInput" id="msg" rows="10" ></textarea>
+              <textarea class="usrInput form-control" id="msg" rows="10" ></textarea>
             </div>
             <button id="btnSubmit" type="submit" >Submit</button>
           </form>
       </div>
     </main>
     
-    <footer>
+    <footer class="fixed-bottom text-center">
         <p id="copywright">Copywright @2019</p>
     </footer>
 

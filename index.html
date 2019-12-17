@@ -12,14 +12,14 @@
 </head>
 
 <body class="bg">
-    <header>
+    <div class="row nav-row">
         <div class="container header-container">
-            <div class="row nav-row">
-                <div class="col-md-6">
+            <div class="row">
+                <div class="col-12 col-md-4 name text-center">
                     <span class="name"><h1>Jeffrey Bell</h1></span>
                 </div>
-                <div class="col-md-6">
-                    <ul class="nav">
+                <div class="col-12 col-md-8 pt-1 pr-md-0">
+                    <ul class="nav float-none float-md-right justify-content-center">
                         <li class="nav-item">
                             <a class="nav-link active" href="./index.html">About</a>
                         </li>
@@ -27,56 +27,54 @@
                             <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
+                            <a class="nav-link pr-0" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </header>
-    
-    <main>
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="contentHeader">
-                        <h2>About Me</h2>
-                    </div>
+    </div>
+    <div class="container content mt-4">
+        <div class="row mt-2">
+            <div class="col-md-12">
+                <div id="contentHeader">
+                    <h2>About Me</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img class='myPicture img-responsive' src="./assets/images/MeBenji.jpg"/>
-                </div>
-                <div class="col-md-8">
-                    <p>I currently live and work in Overland Park Kansas.  I graduated from DeVry University in October 1989, and took a Job with Sprint in Janurary 1990.  I have been developing software for various platforms using many different technologies and languages for thirty years (in Janurary 2020).</p>
-                    <p>Some (not all) of the  technologies and languages I have experience with are listed below.</p>
-                </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12 col-md-4">
+                <img class='myPicture img-fluid' src="./assets/images/MeBenji.jpg"/>
             </div>
-           <div class="row">
-               <div class="col-md-6">
-                    <ul id="skills">
-                        <li>.NET</li>
-                        <li>Apache</li>
-                        <li>C/C++/C#</li>
-                        <li>HTML/CSS</li>
-                        <li>Microsoft Internet Information Server (IIS)</lli>
-                        <li>Java/Javascript/jQuery</li>
-                        <li>Perl/PHP/Python</li>
-                        <li>Microsoft Access/MySQL/SQL Server/Oracle/Postges</li>
-                        <li>Visual Basic</li>
-                        <li>Visual Studio</li>
-                    </ul>
-               </div>
-               <div class="col-md-6">
-                   
-               </div>
-           </div>
+            <div class="col-12 col-md-8 pt-2 pt-md-0">
+                <p>I currently live and work in Overland Park Kansas.  I graduated from DeVry University in October 1989, and took a Job with Sprint in Janurary 1990.  I have been developing software for various platforms using many different technologies and languages for thirty years (in Janurary 2020).</p>
+                <p>Some (not all) of the  technologies and languages I have experience with are listed below.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul id="skills">
+                    <li>.NET</li>
+                    <li>Apache</li>
+                    <li>C/C++/C#</li>
+                    <li>HTML/CSS</li>
+                    <li>Microsoft Internet Information Server (IIS)</lli>
+                    <li>Java/Javascript/jQuery</li>
+                    <li>Perl/PHP/Python</li>
+                    <li>Microsoft Access/MySQL/SQL Server/Oracle/Postges</li>
+                    <li>Visual Basic</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
         </div>
     </div>
-    </main>
     
-    <footer>
+    
+    
+    <footer class="text-center fixed-bottom">
         <p id="copywright">Copywright @2019</p>
     </footer>
 
