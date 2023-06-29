@@ -7,6 +7,6 @@ I have worked on.
 
 ## Links
 
-[Repository](https://github.com/Portfolio-2/WeatherDashboard)
+[Repository](https://github.com/Portfolio-2/)
 
 [Application](https://codemaster-jab.github.io/Portfolio-2/)
